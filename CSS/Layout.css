@@ -1,0 +1,72 @@
+ :root {
+      --primary-color: #4ea5f7;
+      --text-color: #000;
+      --light-color: #555;
+      --font-family: 'Montserrat', sans-serif;
+      --heading-size: 3rem;
+      --spacing: 40px;
+      --signature-width: 150px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    
+    body {
+      font-family: var(--font-family);
+      overflow-x: hidden;
+      background-color: #fff;
+    }
+
+    a{
+      color: var(--text-color) !important;
+      text-decoration: none !important;
+    }
+
+.fraktur {
+      font-family: 'UnifrakturCook', cursive;
+    }
+    .search-box {
+      max-width: 300px;
+      margin: 1rem auto;
+    }
+    .nav-link , .dropdown-item {
+      color: #2980b9 !important;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (min-width: 992px) {
+      .navbar .dropdown:hover > .dropdown-menu {
+        display: block;
+      }
+
+      .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+        left: 100%;
+        top: 0;
+        margin-top: 0;
+      }
+
+      .dropdown-submenu > .dropdown-menu {
+        position: absolute;
+        left: -9999px;
+        top: 100%;
+        margin-top: 0;
+      }
+
+      .dropdown-submenu:hover > .dropdown-menu {
+        left: 100%;
+      }
+    }
+
+    /* Allow parent to contain absolutely positioned sub-dropdowns */
+    .dropdown-submenu {
+      position: relative;
+    }

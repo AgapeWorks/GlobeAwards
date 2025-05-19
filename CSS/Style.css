@@ -1,0 +1,102 @@
+.section-title {
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    .custom-card h5 {
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .custom-card .read-time {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 8px;
+    }
+
+    .custom-card .read-time i {
+      margin-right: 4px;
+    }
+
+    .custom-card .description {
+      font-size: 0.95rem;
+      color: #333;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .btn-blue {
+      background-color: #457dcc !important;
+      color: #fff !important;
+      font-weight: bold;
+      border-radius: 4px;
+      padding: 6px 20px;
+    }
+
+    .btn-blue:hover {
+      background-color: #457dcc;
+    }
+
+    hr {
+      border-color: #ccc;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 767.98px) {
+      .section-title-col {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+
+    /* deadline-section css*/
+
+     .deadline-title {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 1.3;
+    }
+
+    .deadline-card {
+      border-top: 1px solid #ccc;
+      padding-top: 12px;
+    }
+
+    .deadline-month {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666;
+    }
+
+    .deadline-day {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: -4px;
+    }
+
+    .deadline-time {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .deadline-desc {
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .view-calendar {
+      font-size: 14px;
+      margin-top: 16px;
+      display: inline-block;
+    }
+
+    @media (max-width: 767.98px) {
+      .deadline-title-col {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+    }
