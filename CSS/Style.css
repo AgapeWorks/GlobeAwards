@@ -54,21 +54,21 @@
 
     /* deadline-section css*/
 
-     .deadline-title {
+    .deadline-title {
       font-weight: bold;
       font-size: 26px;
       line-height: 1.3;
     }
 
     .deadline-card {
-      border-top: 1px solid #ccc;
-      padding-top: 12px;
+      border-bottom: 1px solid #ddd;
+      padding-top: 10px;
     }
 
     .deadline-month {
       font-size: 12px;
       text-transform: uppercase;
-      color: #666;
+      color: #555;
     }
 
     .deadline-day {
@@ -79,24 +79,72 @@
 
     .deadline-time {
       font-size: 13px;
-      color: #666;
+      color: #777;
     }
 
     .deadline-desc {
-      font-weight: 600;
       font-size: 14px;
-      margin-top: 4px;
+      font-weight: 600;
+      margin-top: 5px;
     }
 
-    .view-calendar {
+    .deadline-footer a {
       font-size: 14px;
-      margin-top: 16px;
+      margin-top: 20px;
       display: inline-block;
     }
 
     @media (max-width: 767.98px) {
       .deadline-title-col {
         width: 100%;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
+      }
+    }
+
+
+    /* form css */
+
+    .form-title {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+
+    .form-control {
+      background-color: #f6fafd;
+      border-color: #d3dbe2;
+      font-size: 15px;
+      padding: 10px 12px;
+    }
+
+    .form-check-label {
+      font-size: 14px;
+      color: #002d5d;
+    }
+
+    .form-check-input {
+      margin-top: 6px;
+    }
+
+    .submit-btn {
+      background-color: #ff6f4d;
+      border: none;
+      color: white;
+      padding: 10px 24px;
+      font-size: 14px;
+    }
+
+    .form-check-label small {
+      color: red;
+    }
+
+    @media (max-width: 576px) {
+      .form-title {
+        font-size: 22px;
+        text-align: center;
+      }
+
+      .submit-btn {
+        width: 100%;
       }
     }
