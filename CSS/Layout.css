@@ -36,6 +36,7 @@
     }
     .nav-link , .dropdown-item {
       color: #2980b9 !important;
+      text-transform: uppercase;
       font-weight: 500;
     }
     .nav-link:hover {
