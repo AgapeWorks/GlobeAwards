@@ -173,8 +173,15 @@
   display: block;
 }
 
+.award-img img{
+  width: 120px;
+  height: auto;
+  display: inline;
+  margin: 10px;
+}
+
 .team-member h3 {
-  margin: 0.5rem 0;
+  margin: 0.5rem;
   font-size: 1.1rem;
 }
 
@@ -257,18 +264,3 @@
   .collapsible-content ul li a:hover {
     text-decoration: underline;
   }
-  .image-wrapper {
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.image-wrapper img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-    display: block;
-}
-
-.image-wrapper img:hover {
-    transform: scale(1.1); /* Zoom effect */
-}
