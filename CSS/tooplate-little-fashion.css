@@ -58,54 +58,6 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark-color);
-  line-height: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: var(--font-weight-bold);
-}
-
-h1,
-h2 {
-  font-weight: var(--font-weight-black);
-}
-
-h1 {
-  font-size: 64px;
-  line-height: normal;
-}
-
-h2 {
-  font-size: 42px;
-}
-
-h3 {
-  font-size: 36px;
-}
-
-h4 {
-  font-size: 32px;
-}
-
-h5 {
-  font-size: 24px;
-}
-
-h6 {
-  font-size: 20px;
-}
-
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);

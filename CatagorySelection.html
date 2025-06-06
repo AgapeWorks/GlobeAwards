@@ -16,6 +16,78 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
+        <style>
+
+    .form-container {
+      max-width: 900px;
+      margin: 30px auto;
+      border: 1px solid #ccc;
+      padding: 20px 30px;
+      background: #fff;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+    .inline-inputs {
+      display: flex;
+      gap: 15px;
+    }
+
+    .inline-inputs > div {
+      flex: 1;
+    }
+
+    .checkbox-group, .radio-group {
+      padding-left: 10px;
+    }
+
+    .checkbox-group label,
+    .radio-group label {
+      display: block;
+    }
+
+    .form-actions {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .form-actions button {
+      padding: 10px 30px;
+      margin: 0 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px) {
+      .inline-inputs {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -71,7 +143,7 @@
                                                 Important</a></li>
                                         <li><a class="dropdown-item" href="Business-awards.html">How to win Business
                                                 awrds</a></li>
-                                        <li><a class="dropdown-item" href="10Reasons.html">10 Reasons why your
+                                        <li><a class="dropdown-item" href="10Reasons.html">10 Reasons why your<br>
                                                 Organization will
                                                 Never Win Business Awards</a></li>
                                         <li><a class="dropdown-item" href="FreeBooks.html">Free EBooks</a></li>
@@ -80,7 +152,7 @@
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#">Nomination Process</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="CatagorySelection.html">Catagory Selection
+                                        <li><a class="dropdown-item" href="CatagorySelection.html">Catagory Selection<br>
                                                 Help</a></li>
                                         <li><a class="dropdown-item" href="SubmitReferral.html">Submit a referral</a>
                                         </li>
@@ -142,12 +214,148 @@
         </nav>
     </header>
     <div class="main-content">
-        <div class="container">
+        <div class="container py-5">
             <h1>Category Selection Help</h1>
 
-           <div>
+            <div class="form-container">
+                <h2>What do you and your organization want to be recognized for?</h2>
 
-           </div>
+                <!-- Personal & Org Info -->
+                <div class="form-group inline-inputs">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Job Title</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Company</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group inline-inputs">
+                    <div>
+                        <label>City</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>State/Province</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-group inline-inputs">
+                    <div>
+                        <label>Postal Code</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Country</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Industry</label>
+                    <select>
+                        <option>Select...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label># of Full-Time Employees (Include company and global total)</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Is this organization part of a larger organization?</label>
+                    <select>
+                        <option>Select...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Website Address</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>Social media or other web links</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Are you planning to apply for our new campaign product?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="apply"> Yes</label>
+                        <label><input type="radio" name="apply"> No</label>
+                        <label><input type="radio" name="apply"> Undecided</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Additional Comments</label>
+                    <textarea></textarea>
+                </div>
+
+                <!-- Tell us more section -->
+                <h3>Tell us more</h3>
+
+                <div class="form-group">
+                    <label>Check all areas in which you and your organization would like recognition</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox"> Company Culture</label>
+                        <label><input type="checkbox"> DEI</label>
+                        <label><input type="checkbox"> Sustainability</label>
+                        <label><input type="checkbox"> Innovation</label>
+                        <label><input type="checkbox"> Employee Experience</label>
+                        <label><input type="checkbox"> Learning</label>
+                        <label><input type="checkbox"> Leadership</label>
+                        <label><input type="checkbox"> Technology</label>
+                        <label><input type="checkbox"> HR Service</label>
+                        <label><input type="checkbox"> Other</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Additional Info for selected areas</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>List names of any recent programs or technologies your organization has launched or
+                        updated</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>List some recent award programs your organization has participated in</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Any other details you'd like to share with us?</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <div class="form-actions">
+                    <button type="reset">Save Progress</button>
+                    <button type="submit">Submit</button>
+                </div>
         </div>
 
 
