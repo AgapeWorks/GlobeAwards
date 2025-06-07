@@ -12,7 +12,7 @@ https://www.tooplate.com/view/2127-little-fashion
 -----------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
-  --primary-color:              #FF4400;
+  --primary-color:              #2980b9;
   --section-bg-color:           #f0f8ff;
   --dark-color:                 #000000;
   --grey-color:                 #d0d1d1;
@@ -170,7 +170,6 @@ strong {
   CUSTOM BUTTON & ICON              
 -----------------------------------------*/
 .custom-btn {
-  background: var(--dark-color);
   border-radius: 50px;
   color: var(--white-color);
   font-size: var(--copyright-text-font-size);
@@ -203,7 +202,6 @@ strong {
 
 .custom-btn:hover,
 .slick-slideshow .custom-btn:hover {
-  background: var(--primary-color);
   color: var(--white-color);
 }
 

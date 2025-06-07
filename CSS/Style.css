@@ -264,3 +264,9 @@
   .collapsible-content ul li a:hover {
     text-decoration: underline;
   }
+
+  .custom-image-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
